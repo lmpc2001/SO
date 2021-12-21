@@ -1,15 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.mycompany.so_grupo29;
 
 import java.io.IOException;
 
 /**
- *
- * @author luism
+ * Classe com a funcionalidade de ligar e ligar os aspersores e os secadores
+ * @author grupo29
  */
 public class Aspersores implements Runnable {
 
@@ -22,16 +17,22 @@ public class Aspersores implements Runnable {
     };
     private final State state = State.Parado;
 
+    /**
+     * Construtor da Classe Aspersores
+     * @param util variavel com os valores dos botões
+     */
     public Aspersores(Util util) {
         this.util = util;
     }
 
+    /**
+     * Função que executa os aspersores e os secadores
+     */
     @Override
     public void run() {
         try {
             int seconds_aspersores = (int) util.getDuracaoAspersores();
             int seconds_secador = (int) util.getDuracaoSecagem();
-            //(int) (Math.random() * (6 - 3 + 1)) + 3;
             util.writeLogs("Aspersores Ativados");
 
             System.out.println("Aspersores Ativados");

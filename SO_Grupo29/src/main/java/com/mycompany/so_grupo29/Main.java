@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.mycompany.so_grupo29;
 
 import java.io.IOException;
@@ -11,8 +6,8 @@ import java.util.List;
 import java.util.concurrent.Semaphore;
 
 /**
- *
- * @author luism
+ * Fiunção principal, tem como funcionalidade ativar todas as threads e retorna o troco ao cliente
+ * @author grupo29
  */
 public class Main implements Runnable {
 
@@ -27,6 +22,7 @@ public class Main implements Runnable {
     private static final ThreadGroup thg_Washing = new ThreadGroup("Washing Group");
     private static boolean emergency = false;
 
+    
     public static enum State {
         Livre,
         Ocupado,
@@ -35,13 +31,19 @@ public class Main implements Runnable {
 
     public static State state = State.Fechado;
 
+    /**
+     * construtor da class main
+     * @param util variavel com os valores dos botões
+     * @param lstclients lista com os clientes por lavar 
+     */
     public Main(Util util, List<String> lstclients) {
         Main.util = util;
         Main.lstClients = lstclients;
     }
 
     /**
-     * @param args the command line arguments
+     * Ativa as threads necessarias e retorna o troco ao utilizador
+     * @param args command line argumentos
      * @throws java.lang.InterruptedException
      * @throws IOException
      */
@@ -62,6 +64,12 @@ public class Main implements Runnable {
         }
     }
 
+    /**
+     * Função de troco 
+     * @param price preco da lavagem
+     * @param amount montante recebido pelo cliente
+     * @return 
+     */
     private static double validateAmount(double price, double amount) {
         if (amount >= price) {
             return amount - price;
@@ -70,6 +78,11 @@ public class Main implements Runnable {
         }
     }
 
+    /**
+     * Inicializa a lavagem dos carros
+     * @throws IOException
+     * @throws InterruptedException 
+     */
     private static void inicializeWash() throws IOException, InterruptedException {
         Thread th_aspressores = new Thread(thg_Washing, new Aspersores(util), "TH_Aspersores");
         Thread th_rolos = new Thread(thg_Washing, new Rolos(util), "TH_Rolos");
@@ -104,6 +117,11 @@ public class Main implements Runnable {
         }
     }
 
+    /**
+     * Valida o valor do botão e executa as ações coorespondentes a cada um
+     * @throws IOException
+     * @throws InterruptedException 
+     */
     private static void validateButton() throws IOException, InterruptedException {
         button = util.getButton();
 
@@ -187,6 +205,9 @@ public class Main implements Runnable {
         }
     }
 
+    /**
+     * Função de execução para a thread
+     */
     @Override
     public void run() {
         while (lstClients.size() > 0) {

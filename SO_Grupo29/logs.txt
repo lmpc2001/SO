@@ -63,3 +63,30 @@
 14/12/2021 - 17:00:17 : Lavagem do cliente Cliente 1 iniciada
 14/12/2021 - 17:00:19 : Tapete - O Carro chegou ao ponto de lavagem
 14/12/2021 - 17:00:19 : Aspersores Ativados
+20/12/2021 - 09:14:46 : Sistema aberto
+20/12/2021 - 09:15:05 : Lavagem do cliente Cliente 1 iniciada
+20/12/2021 - 09:15:07 : Tapete - O Carro chegou ao ponto de lavagem
+20/12/2021 - 09:15:07 : Aspersores Ativados
+20/12/2021 - 09:15:12 : Aspersores Desativados
+20/12/2021 - 09:15:12 : Secador Ativados
+20/12/2021 - 09:15:18 : Secador Desativados
+20/12/2021 - 09:15:18 : Rolos Ativados
+20/12/2021 - 09:15:23 : Rolos Desativados
+20/12/2021 - 09:15:26 : Tapete - O Carro chegou ao Fim
+20/12/2021 - 09:15:59 : Lavagem do cliente Cliente 2 iniciada
+20/12/2021 - 09:16:01 : Tapete - O Carro chegou ao ponto de lavagem
+20/12/2021 - 09:16:01 : Aspersores Ativados
+20/12/2021 - 09:16:06 : Aspersores Desativados
+20/12/2021 - 09:16:06 : Secador Ativados
+20/12/2021 - 09:16:12 : Secador Desativados
+20/12/2021 - 09:16:12 : Rolos Ativados
+20/12/2021 - 09:16:17 : Rolos Desativados
+20/12/2021 - 09:16:20 : Tapete - O Carro chegou ao Fim
+20/12/2021 - 09:16:22 : Paragem de emergencia
+20/12/2021 - 09:16:40 : Emergencia Resolvida
+20/12/2021 - 14:01:56 : Sistema aberto
+20/12/2021 - 14:02:24 : Lavagem do cliente Cliente 1 iniciada
+20/12/2021 - 14:02:26 : Tapete - O Carro chegou ao ponto de lavagem
+20/12/2021 - 14:02:26 : Aspersores Ativados
+20/12/2021 - 14:02:31 : Aspersores Desativados
+20/12/2021 - 14:02:31 : Secador Ativados

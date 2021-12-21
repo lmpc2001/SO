@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.mycompany.so_grupo29;
 
 import java.awt.*;
@@ -11,8 +6,9 @@ import javax.swing.*;
 import java.util.concurrent.Semaphore;
 
 /**
- *
- * @author luism
+ * Tem a função de abrir as janelas de interação com o utilizador.
+ * Atualizar o valor da variavel util dependendo do botão clicado. 
+ * @author grupo29
  */
 public class Admin implements ActionListener, Runnable {
 
@@ -20,11 +16,19 @@ public class Admin implements ActionListener, Runnable {
     Util util = new Util();
     JFrame janela;
 
+    /**
+     * Construtor da classe Admin
+     * @param sem semafro
+     * @param util variavel com os valores dos botões
+     */
     public Admin(Semaphore sem, Util util) {
         this.sem = sem;
         this.util = util;
     }
 
+    /**
+     * Mostra o menu de escolhas ao utilizador
+     */
     public void menu() {
         janela = new JFrame("Admin");
 
@@ -45,6 +49,10 @@ public class Admin implements ActionListener, Runnable {
         janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
+    /**
+     * Aciona os botões consoante a escolha do utilizador 
+     * @param ae ação do botão
+     */
     @Override
     public void actionPerformed(ActionEvent ae) {
         String action = ae.getActionCommand();
@@ -60,7 +68,10 @@ public class Admin implements ActionListener, Runnable {
                 break;
         }
     }
-
+    
+    /**
+     * Roda a variavel menu quando ativada a thread
+     */
     @Override
     public void run() {
         menu();

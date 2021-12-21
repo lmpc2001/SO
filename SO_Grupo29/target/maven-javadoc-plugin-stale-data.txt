@@ -1,0 +1,49 @@
+@options
+@packages
+-classpath
+'/home/superadmin/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/home/superadmin/.m2/repository/junit/junit/4.10/junit-4.10.jar:/home/superadmin/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'13'
+-sourcepath
+'/home/superadmin/Documentos/Faculdade/OS/ProjetoSO/SO_Grupo29/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2021. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/superadmin/Documentos/Faculdade/OS/ProjetoSO/SO_Grupo29/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'SO_Grupo29 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/13/docs/api' '/home/superadmin/Documentos/Faculdade/OS/ProjetoSO/SO_Grupo29/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'SO_Grupo29 1.0-SNAPSHOT API'
+com.mycompany.so_grupo29
+/home/superadmin/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar = 1639991587775
+/home/superadmin/.m2/repository/junit/junit/4.10/junit-4.10.jar = 1639991588211
+/home/superadmin/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar = 1639991587815
+/home/superadmin/Documentos/Faculdade/OS/ProjetoSO/SO_Grupo29/src/main/java = 1639991529351
+/home/superadmin/Documentos/Faculdade/OS/ProjetoSO/SO_Grupo29/target/site/apidocs/member-search-index.js = 1640014402423
+/home/superadmin/Documentos/Faculdade/OS/ProjetoSO/SO_Grupo29/target/site/apidocs/script.js = 1640014402447
+/home/superadmin/Documentos/Faculdade/OS/ProjetoSO/SO_Grupo29/target/site/apidocs/tag-search-index.js = 1640014402423
+/home/superadmin/Documentos/Faculdade/OS/ProjetoSO/SO_Grupo29/target/site/apidocs/index-all.html = 1640014402439
+/home/superadmin/Documentos/Faculdade/OS/ProjetoSO/SO_Grupo29/target/site/apidocs/allclasses-index.html = 1640014402419
+/home/superadmin/Documentos/Faculdade/OS/ProjetoSO/SO_Grupo29/target/site/apidocs/allpackages-index.html = 1640014402423
+/home/superadmin/Documentos/Faculdade/OS/ProjetoSO/SO_Grupo29/target/site/apidocs/help-doc.html = 1640014402443
+/home/superadmin/Documentos/Faculdade/OS/ProjetoSO/SO_Grupo29/target/site/apidocs/index.html = 1640014402443
+/home/superadmin/Documentos/Faculdade/OS/ProjetoSO/SO_Grupo29/target/site/apidocs/element-list = 1640014402355
+/home/superadmin/Documentos/Faculdade/OS/ProjetoSO/SO_Grupo29/target/site/apidocs/stylesheet.css = 1640014402447
+/home/superadmin/Documentos/Faculdade/OS/ProjetoSO/SO_Grupo29/target/site/apidocs/search.js = 1640014402447
+/home/superadmin/Documentos/Faculdade/OS/ProjetoSO/SO_Grupo29/target/site/apidocs/type-search-index.js = 1640014402423
+/home/superadmin/Documentos/Faculdade/OS/ProjetoSO/SO_Grupo29/target/site/apidocs/package-search-index.js = 1640014402423
+/home/superadmin/Documentos/Faculdade/OS/ProjetoSO/SO_Grupo29/target/site/apidocs/jquery-ui.overrides.css = 1640014402459
+/home/superadmin/Documentos/Faculdade/OS/ProjetoSO/SO_Grupo29/target/site/apidocs/overview-tree.html = 1640014402407
+/home/superadmin/Documentos/Faculdade/OS/ProjetoSO/SO_Grupo29/target/site/apidocs/module-search-index.js = 1640014402423

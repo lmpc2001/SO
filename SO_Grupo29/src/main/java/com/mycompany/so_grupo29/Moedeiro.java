@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package com.mycompany.so_grupo29;
 
 import java.awt.*;
@@ -12,8 +6,8 @@ import javax.swing.*;
 import java.util.concurrent.Semaphore;
 
 /**
- *
- * @author luism
+ * Classe com a funcionalidade de receber o dinheiro do cliente ativar a interface para o utilizador
+ * @author grupo29
  */
 public class Moedeiro implements ActionListener, Runnable {
     private final Semaphore sem;
@@ -22,11 +16,19 @@ public class Moedeiro implements ActionListener, Runnable {
     JTextField txtMoney = new JTextField();
     public JLabel labelStateValue = new JLabel();
 
+    /**
+     * Construtor da classe Moedeiro
+     * @param sem semafro
+     * @param util variavel com os valores dos botões
+     */
     public Moedeiro(Semaphore sem, Util util) {
         this.sem = sem;
         this.util = util;
     }
 
+    /**
+     * Função que recebe o dinheiro do utilizador
+     */
     public void moneyBox() {
         janela = new JFrame("Money Box");
 
@@ -47,6 +49,9 @@ public class Moedeiro implements ActionListener, Runnable {
         janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
+    /**
+     * Ativa a interface com os botões para o utilizador
+     */
     public void menu() {
         janela = new JFrame("Moedeiro");
 
@@ -81,6 +86,10 @@ public class Moedeiro implements ActionListener, Runnable {
         janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
+    /**
+     * Tem a função de ativar os botões do menu da lavagem
+     * @param ae ação do botão
+     */
     @Override
     public void actionPerformed(ActionEvent ae) {
         String action = ae.getActionCommand();
@@ -114,6 +123,9 @@ public class Moedeiro implements ActionListener, Runnable {
         }
     }
 
+    /**
+     * Executa a função moneyBox para thread
+     */
     @Override
     public void run() {
         moneyBox();

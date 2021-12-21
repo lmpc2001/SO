@@ -1,28 +1,31 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package com.mycompany.so_grupo29;
 
 import java.io.IOException;
 /**
- *
- * @author luism
+ * Classe para ativar e desativar os rolos 
+ * @author grupo29
  */
 public class Rolos implements Runnable {
     Util util = new Util();
+    
     public enum State {
         Parado,
         Ativo
     };
+    
     private final State state = State.Parado;
 
+   /**
+    * Constrotor da class Rolos 
+    * @param util variavel com os valores dos botões
+    */
     public Rolos(Util util) {
         this.util = util;
     }
 
+    /**
+     * função de execução da thread 
+     */
     @Override
     public void run() {
         try {

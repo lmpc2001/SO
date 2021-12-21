@@ -1,29 +1,31 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package com.mycompany.so_grupo29;
 
 import java.io.IOException;
 
 /**
- *
- * @author luism
+ * Classe com a função de ligar e desligar os tapetes
+ * @author grupo29
  */
 public class Tapete implements Runnable {
     Util util = new Util();
+    
     public enum State {
         Parado,
         Ativo
     };
     private final State state = State.Parado;
 
+    /**
+     * Construtor da class Tapete
+     * @param util variavel com os valores dos botões
+     */
     public Tapete(Util util) {
         this.util = util;
     }
 
+    /**
+     * Função de execução para a thread
+     */
     @Override
     public void run() {
         try {
