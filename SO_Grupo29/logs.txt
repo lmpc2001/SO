@@ -90,3 +90,44 @@
 20/12/2021 - 14:02:26 : Aspersores Ativados
 20/12/2021 - 14:02:31 : Aspersores Desativados
 20/12/2021 - 14:02:31 : Secador Ativados
+27/12/2021 - 11:55:26 : Sistema aberto
+27/12/2021 - 11:55:39 : Sistema aberto
+27/12/2021 - 11:55:52 : Lavagem do cliente Cliente 1 iniciada
+27/12/2021 - 11:55:54 : Tapete - O Carro chegou ao ponto de lavagem
+27/12/2021 - 11:55:54 : Aspersores Ativados
+27/12/2021 - 12:01:13 : Sistema aberto
+27/12/2021 - 12:01:19 : Sistema encerrado
+27/12/2021 - 12:02:34 : Sistema encerrado
+27/12/2021 - 12:02:52 : Sistema aberto
+27/12/2021 - 12:02:59 : Sistema aberto
+27/12/2021 - 12:50:47 : Sistema encerrado
+28/12/2021 - 11:01:43 : Sistema aberto
+28/12/2021 - 11:01:48 : Lavagem do cliente Cliente 1 iniciada
+28/12/2021 - 11:01:50 : Tapete - O Carro chegou ao ponto de lavagem
+28/12/2021 - 11:01:50 : Aspersores Ativados
+28/12/2021 - 11:01:55 : Aspersores Desativados
+28/12/2021 - 11:01:55 : Secador Ativados
+28/12/2021 - 11:02:01 : Secador Desativados
+28/12/2021 - 11:02:01 : Rolos Ativados
+28/12/2021 - 11:02:06 : Rolos Desativados
+28/12/2021 - 11:02:09 : Tapete - O Carro chegou ao Fim
+28/12/2021 - 11:44:52 : Sistema aberto
+28/12/2021 - 11:45:21 : Sistema aberto
+28/12/2021 - 14:54:15 : Sistema aberto
+28/12/2021 - 15:38:21 : Sistema aberto
+28/12/2021 - 15:38:28 : Lavagem do cliente Cliente 1 iniciada
+28/12/2021 - 15:38:30 : Tapete - O Carro chegou ao ponto de lavagem
+28/12/2021 - 15:38:30 : Aspersores Ativados
+28/12/2021 - 15:38:35 : Aspersores Desativados
+28/12/2021 - 15:38:35 : Secador Ativados
+28/12/2021 - 15:38:41 : Secador Desativados
+28/12/2021 - 15:38:41 : Rolos Ativados
+28/12/2021 - 15:38:46 : Rolos Desativados
+28/12/2021 - 15:38:49 : Tapete - O Carro chegou ao Fim
+28/12/2021 - 15:39:04 : Sistema encerrado
+03/01/2022 - 10:36:58 : Sistema aberto
+03/01/2022 - 10:37:31 : Sistema aberto
+03/01/2022 - 10:37:52 : Lavagem do cliente Cliente 1 iniciada
+03/01/2022 - 10:37:54 : Tapete - O Carro chegou ao ponto de lavagem
+03/01/2022 - 10:37:54 : Aspersores Ativados
+03/01/2022 - 10:48:18 : Sistema aberto

@@ -13,6 +13,7 @@ public class Tapete implements Runnable {
         Parado,
         Ativo
     };
+    
     private final State state = State.Parado;
 
     /**

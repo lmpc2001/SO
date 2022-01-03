@@ -220,6 +220,3 @@ public class Main implements Runnable {
         }
     }
 }
-
-// https://www.journaldev.com/1037/java-thread-wait-notify-and-notifyall-example
-// https://www.geeksforgeeks.org/wait-method-in-java-with-examples/
