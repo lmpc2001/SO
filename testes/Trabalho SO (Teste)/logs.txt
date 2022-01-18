@@ -1,0 +1,21 @@
+30/06/2021 - 20:06:24 : Nova Lavagem Iniciada
+30/06/2021 - 20:06:24 : Aspersores Ativados
+30/06/2021 - 20:06:24 : Rolos Ativados
+30/06/2021 - 20:06:28 : Rolos Desativados
+30/06/2021 - 20:06:29 : Aspersores Desativados
+30/06/2021 - 20:06:29 : Secador Ativados
+30/06/2021 - 20:06:34 : Secador Desativados
+30/10/2021 - 20:10:35 : Nova Lavagem Iniciada
+30/10/2021 - 20:10:35 : Rolos Ativados
+30/10/2021 - 20:10:35 : Aspersores Ativados
+30/10/2021 - 20:10:39 : Rolos Desativados
+30/10/2021 - 20:10:40 : Aspersores Desativados
+30/10/2021 - 20:10:40 : Secador Ativados
+30/10/2021 - 20:10:44 : Secador Desativados
+30/13/2021 - 20:13:33 : Nova Lavagem Iniciada
+30/13/2021 - 20:13:33 : Aspersores Ativados
+30/13/2021 - 20:13:33 : Rolos Ativados
+30/13/2021 - 20:13:37 : Rolos Desativados
+30/13/2021 - 20:13:38 : Aspersores Desativados
+30/13/2021 - 20:13:38 : Secador Ativados
+30/13/2021 - 20:13:41 : Secador Desativados
